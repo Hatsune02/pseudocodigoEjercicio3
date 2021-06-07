@@ -1,0 +1,9 @@
+Algoritmo Ejercicio3
+	Escribir 'Ingrese un número'
+	Leer var
+	factorial <- 1
+	Para i<-0 Hasta (var-1) Hacer
+		factorial <- factorial*(var-i)
+	FinPara
+	Escribir 'El factorial del número ingresado es: ',factorial
+FinAlgoritmo
